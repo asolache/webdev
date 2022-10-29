@@ -38248,17 +38248,20 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-text-2 {
     width: auto;
+    margin-top: 8px;
     margin-right: 253px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: 20px;
+    margin-top: 12px;
     margin-bottom: 20px;
-    margin-left: 108px;
+    margin-left: 150px;
   }
 
   .u-header .u-nav-1 {
+    font-size: 1.125rem;
+    font-weight: 600;
     text-transform: none;
   }
 }

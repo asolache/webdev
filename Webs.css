@@ -40,7 +40,7 @@
 .u-section-2 .u-text-1 {
   font-size: 1.5rem;
   font-style: italic;
-  margin: 39px 0 38px;
+  margin: 18px 0 60px;
 }
 
 @media (max-width: 991px) {
@@ -50,6 +50,7 @@
 
   .u-section-2 .u-text-1 {
     width: auto;
+    margin-top: 37px;
   }
 }
 
@@ -66,8 +67,6 @@
 
   .u-section-2 .u-text-1 {
     font-size: 1.25rem;
-    margin-top: 21px;
-    margin-bottom: 21px;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 44px;
@@ -493,20 +492,26 @@
   }
 }
 
+@media (max-width: 991px) {
+  .u-section-12 .u-sheet-1 {
+    min-height: 116px;
+  }
+
+  .u-section-12 .u-text-1 {
+    margin-bottom: 40px;
+  }
+}
+
 @media (max-width: 767px) {
   .u-section-12 .u-text-1 {
     font-size: 1.25rem;
+    margin-top: 60px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-12 .u-sheet-1 {
     min-height: 180px;
-  }
-
-  .u-section-12 .u-text-1 {
-    margin-top: 18px;
-    margin-bottom: 34px;
   }
 }.u-block-5e0c-2 {
   position: absolute;
@@ -653,9 +658,16 @@
   margin: 20px auto 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .u-section-15 .u-text-1 {
     width: auto;
+    margin-top: 11px;
+    margin-bottom: 27px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-15 .u-text-1 {
     margin: 2px 38px 36px;
   }
 }
@@ -679,6 +691,18 @@
   margin: 23px 0 60px;
 }
 
+@media (max-width: 991px) {
+  .u-section-16 .u-sheet-1 {
+    min-height: 295px;
+  }
+
+  .u-section-16 .u-text-1 {
+    width: auto;
+    margin-top: 17px;
+    margin-bottom: 50px;
+  }
+}
+
 @media (max-width: 767px) {
   .u-section-16 .u-sheet-1 {
     min-height: 247px;
@@ -686,7 +710,6 @@
 
   .u-section-16 .u-text-1 {
     font-size: 1.25rem;
-    width: auto;
     margin-top: 15px;
     margin-bottom: 40px;
   }
@@ -758,17 +781,32 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-18 .u-sheet-1 {
+    min-height: 224px;
+  }
+
   .u-section-18 .u-text-1 {
     margin-right: 262px;
     margin-left: 262px;
+  }
+
+  .u-section-18 .u-btn-1 {
+    margin-top: 54px;
+    margin-bottom: 54px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-18 .u-text-1 {
     width: auto;
+    margin-top: 37px;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .u-section-18 .u-btn-1 {
+    margin-top: 37px;
+    margin-bottom: 53px;
   }
 }
 
