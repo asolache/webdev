@@ -107,6 +107,26 @@
 
 .u-section-3 .embed-responsive-1 {
   position: absolute;
+  width: 178%;
+  left: -39%;
+  height: 178%;
+  top: -39%;
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .embed-responsive-1 {
+    width: 198%;
+    left: -49%;
+    height: 100%;
+    top: 0%;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .embed-responsive-1 {
+    width: 314%;
+    left: -107%;
+  }
 } .u-section-4 {
   background-image: none;
 }
